@@ -46,8 +46,8 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-/* end of reset */
+} /* end of reset */
+
 
 /* Universal styles */
 * {
@@ -55,7 +55,7 @@ table {
   max-width: 100%;
 }
 
-/* General Styles */
+/* General Styles all files reference this */
 html {
   font-size: 65.2%;
 }
@@ -90,21 +90,30 @@ nav a {
  border-radius: 10px;
  color: #ffffff;
  text-decoration: none;
+ margin-left: 10%;
+}
+
+nav a:hover {
+  background-color: grey;
+}
+
+.red {
+  background-color: rgb(255, 77, 77);
 }
 
 .orange {
   background-color: #FF764E;
-  margin-left: 8%;
+  
 }
 
 .blue {
   background-color: #5ED3EB;
-  margin: 0 24%;
+  
 }
 
 .yellow {
   background-color: #FFCD69;
-  margin-right: 5%;
+ 
 }
 
 /* Title section */
@@ -165,3 +174,172 @@ nav a {
 footer {
   background-color: #F9E7DC;
 }
+
+/* Specific CSS for the Plan your visit page */
+section div p {
+  font-size: 2rem;
+}
+
+div.large-gallery {
+  display: inline-block;
+}
+
+div.large-gallery img {
+    width: 564px;
+    height: auto;
+    padding: 10px;
+  }
+
+  div.img-desc {
+    padding: 10px;
+    text-align: left;
+  }
+
+  div.img-desc p {
+    font-size: 1.2rem;
+    width:500px;
+  }
+
+  div.small-gallery {
+    width:374px; 
+    padding: 10px;
+  }
+  
+  div.img-desc-small-gallery {
+    padding: 15px;
+    text-align: left;
+  }
+
+  div.img-desc-small-gallery p {
+    width: 374px; 
+    font-size: 1.2rem;
+  }
+
+  #center {
+    width:60%;
+    margin: 0 auto;
+  }
+
+  #map {
+    width: auto;
+    height: auto;
+  }
+
+  /* Specific CSS for the plan your visit and get involved page */
+  .container {
+    width: 90%;
+    border-bottom: 1px solid lightgrey;
+    height: 450px;
+  }
+
+  .text-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-container h1 {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+
+  .imgStyles {
+    float: right;
+    border-radius: 10px;
+  }
+
+  .text-container img {
+    float: right;
+  }
+
+  .resize {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    float: right;
+  }
+
+  .bottom-border {
+    border-bottom: 1px solid lightgrey;
+    height: 230px;
+  }
+
+  .bottom-border h2 {
+    font-size: 5rem;
+  }
+  
+  .bottom-border div a {
+    color: blue;
+    text-decoration-style: dotted;
+  }
+
+  .bottom-border div a:hover {
+    color: red;
+  }
+
+  .read-more {
+    margin-top: 20px;
+  }
+
+  /* Specific CSS for the get involved page */
+  .logos {
+    float: right;
+  }
+  #logo1 {
+    width: 10%;
+    height: 10%;
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  #logo2 {
+    width: 18%;
+    height: 18%;
+  }
+
+  .borders a {
+    text-decoration-style: dashed;
+  }
+
+  .borders {
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  #header {
+    padding: 2% 0;
+  }
+
+  #main h2 {
+    font-size: 24px; 
+    padding: 3% 0 2% 0;
+  }
+
+  .borders.listStyle {
+    padding-left: 4rem;
+  }
+
+  #logo3 {
+    width: 160px;
+    height: 120px;
+  }
+
+  .borders.paraStyle  {
+    padding: 10px;
+  }
+
+  .borders h2 {
+    font-size: 40px;
+  }
+
+  .borders h3 {
+    font-size: 26px;
+  }
+
+  #logo4 {
+    width: 100px;
+    height: 140px;
+  }
+
+ 
